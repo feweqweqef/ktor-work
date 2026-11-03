@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="em" name="email"><br><br>
+        <label for="date">Key in date</label>
+        <input type="date" name="date" id="date"/><br><br>
+        <label for="Colour">Choose a colour</label>
+        <input type="color" name="color" id="color" /><br><br>
+        <fieldset>
+  <legend>Choose your designation</legend>
+  <ul>
+    <li>
+      <label for="member-of-staff">Member of Staff</label>
+      <input
+        type="checkbox"
+        id="member-of-staff"
+        name="designation"
+        value="member-of-staff"
+        checked />
+    </li>
+    <li>
+      <label for="student">Student</label>
+      <input type="checkbox" id="student" name="designation" value="student" />
+    </li>
+</fieldset>
+<button>Submit</button>
+
+    </form>
+</body>
+</html>
