@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 4.6.1</title>
+  </head>
+  <body>
+    <h1>Die Roll</h1>
+    <p>You rolled a d{{ roll.sides }}</p>
+    <p>The result was <strong>{{ roll.result }}</strong></p>
+  </body>
+</html>
